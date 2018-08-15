@@ -11,3 +11,5 @@ find " style="border: 0px; outline: none; max-width: 100%; margin: 5px;
 find URL to url
 \[(URL) 
 raplayce [\L\1
+# remove [url=fghdfjglkdfgkdf]
+\[(url)=+\w*://\w*.\w*.\w*/\w*/\w*]
